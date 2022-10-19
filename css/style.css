@@ -1,0 +1,157 @@
+.wpapper{
+	position: relative;
+	overflow: hidden;
+	max-height: 100%;
+}
+.text {
+	position: absolute;
+	color: blue;
+	border: 1px solid blue;
+	right: 600px;
+	top: 505px;
+	z-index: 11;
+}
+.helicopter-container{
+	position: absolute;
+	perspective: 100px;
+	transform-style: preserve-3d;
+	z-index: 3;
+}
+.helicopter {
+	position: absolute;
+	left: 50px;
+	top: -30px;
+	transform: rotate(30deg);
+	transition: all 20s ease 0s;
+}
+.helicopter-container:hover .helicopter{
+	transform: translate(100%,0) rotate(50deg);
+}
+.hel-rocket {
+	position: absolute;
+	left: 300px;
+	top: 100px;
+	transform: rotate(30deg);
+	transition: all 20s ease 0s;
+}
+.helicopter-container:hover .hel-rocket{
+	transform: translate(300%,350%) rotate(10deg) ;
+}
+.sea {
+	position: absolute;
+}
+.maskva__container {
+	border: 1px solid red;
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+.whole-ship {
+	position: absolute;
+	top: 250px;
+	left: 100px;
+	z-index: 8;
+}
+.image:hover .whole-ship{
+	transform: translate(68%,0);
+	transition: all 20s ease 0s;
+}
+.fire {
+	position: absolute;
+	top: 225px;
+	left: 850px;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 12;
+}
+.maskva__container:hover .fire{
+	opacity: 1;
+	visibility: visible;	
+}
+.rocket{
+	position: absolute;
+	top: 600px;
+	left: 600px;
+	color: yellow;
+}
+.image:hover .rocket{
+	transform: translate(80%,-50%);
+	transition: all 20s ease 0s;
+}
+.ship__container {
+	position: absolute;
+	z-index: 10;
+}
+.ship {
+	position: absolute;
+	top: 400px;
+	left: 500px;
+}
+.flag {
+	position: absolute;
+	top: 410px;
+	left: 900px;
+}
+.first-canvas {
+	position: absolute;
+	top: 399px;
+	left: 500px;
+}
+.second-canvas {
+	position: absolute;
+	top: 399px;
+	left: 500px;
+}
+.third-canvas {
+	position: absolute;
+	top: 399px;
+	left: 500px;
+}
+.fourth-canvas {
+	position: absolute;
+	top: 399px;
+	left: 500px;
+}
+.fifth-canvas {
+	position: absolute;
+	top: 399px;
+	left: 500px;
+}
+.image:hover .ship {
+	transform: translate(-80%,0);
+	transition: all 20s ease 0s;
+}
+.image:hover .flag {
+	transform: translate(-575%,0) ;
+	transition: all 20s ease 0s;
+}
+.image:hover .first-canvas {
+	transform: translate(-80%,0) ;
+	transition: all 20s ease 0s;
+}
+.image:hover .second-canvas {
+	transform: translate(-80%,0);
+	transition: all 20s ease 0s;
+}
+.image:hover .third-canvas {
+	transform: translate(-80%,0);
+	transition: all 20s ease 0s;
+}
+.image:hover .fourth-canvas {
+	transform: translate(-80%,0);
+	transition: all 20s ease 0s;
+}
+.image:hover .fifth-canvas {
+	transform: translate(-80%,0) skew(-5deg, -5deg);
+	transition: all 20s ease 0s;
+}
+.fin {
+	position: absolute;
+	right: 200px;
+	bottom: 100px;
+}
+.shark__container:hover .fin{
+	transform: translate(-100%,250%) scale(3) rotate(-30deg);
+	transition: all 10s ease 0s;
+}
+
